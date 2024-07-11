@@ -1,0 +1,33 @@
+
+
+
+element.style {
+}
+.latst_wrks p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #333;
+    font-family: "lato";
+    margin-bottom: 30px;
+}
+
+html, body, ul, li, a, p, span, img, h1, h2, h3, h4, h5, h6 {
+    padding: 0px;
+    margin: 0px;
+}
+user agent stylesheet
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+@media (max-width: 970px) {
+    .latst_wrks_cntnt {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
